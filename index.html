@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="navbar">
+
+        <a href="#book">Books</a>
+
+        <a href="#register">Register</a>
+
+    </div>
+
+    <h2 class="heading">
+        Books
+    </h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availabilty</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td class="col-1"><u>Book Title 1</u>
+
+                <table class="Col_table">
+                    <tr>
+                        <td>Publication Date:2000</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:250</td>
+                    </tr>
+                    <td>ISBN 123-4567890123</td>
+
+                </table>
+            </td>
+            <td>Author Name 1</td>
+            <td>Genre 1</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td class="col-1"><u>Book Title 2</u>
+                <table>
+                    <tr>
+                        <td>Publication Date:2005</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:300</td>
+                    </tr>
+                    <td>ISBN 123-4567890456</td>
+
+                </table>
+            </td>
+            <td>Author Name 2</td>
+            <td>Genre 2</td>
+            <td>Not Available</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td class="col-1"><u>Book Title 3</u>
+                <table>
+                    <tr>
+                        <td>Publication Date:3000</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:350</td>
+                    </tr>
+                    <td>ISBN 123-4567890789</td>
+
+                </table>
+            </td>
+            <td>Author Name 3</td>
+            <td>Genre 3</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td class="col-1"><u>Book Title 4</u>
+                <table>
+                    <tr>
+                        <td>Publication Date:3005</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:400</td>
+                    </tr>
+                    <td>ISBN 123-4567890889</td>
+
+                </table>
+            </td>
+            <td>Author Name 4</td>
+            <td>Genre 4</td>
+            <td>Not Available</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td class="col-1"><u>Book Title 5</u>
+                <table>
+                    <tr>
+                        <td>Publication Date:4005</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count:450</td>
+                    </tr>
+                    <td>ISBN 123-4567890389</td>
+
+                </table>
+            </td>
+            <td>Author Name 5</td>
+            <td>Genre 5</td>
+            <td>Available</td>
+        </tr>
+
+    </table>
+
+    <h2 class="heading">Register</h2>
+    <form>
+       
+    <label for="first_name"><b>First Name</b></label><br>
+    <input type="text" placeholder="Enter First Name" name="first_name" id="FirstName" required><br>
+
+    <label for="last_name"><b>Last Name</b></label><br>
+    <input type="text" placeholder="Enter Last Name" name="last_name" id="LastName" required><br>
+
+    <label for="datte"><b>Date Of Birth</b></label><br>
+    <input type="date"  min="01/01/1930" max="01/01/2023" required><br>
+
+   
+    <label for="age"><b>Age</b></label><br>
+    <input type="number" name="@ge" id="Age" min="5" max="100" required><br>
+   
+    <label for="email"><b>Email ID</b></label><br>
+    <input type="email" placeholder="abcdg@gmail.com" name="Email" id="email" required><br>
+
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password"  name="psw" id="psw" required><br>
+
+    <label for="psw"><b>Confirm Password</b></label><br>
+    <input type="password"  name="psw" id="psw" required><br>
+
+    <a href="#"></a>
+    <button  type="submit" class="registerbtn">Register</button>
+    </form>
+
+</body>
+
+</html>

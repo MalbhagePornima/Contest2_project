@@ -1,0 +1,72 @@
+
+#navbar {
+    overflow: hidden;
+    background-color: rgb(24, 140, 185);
+    text-align: center;
+  }
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  .heading{
+     color:red
+
+     }
+
+ table{
+    border: 1px solid black;
+    overflow: hidden;
+    border-collapse: collapse;
+   
+  }
+
+ 
+  .col-1{
+    color: blue;
+  }
+
+  #Col_table{
+    padding: 5px;
+    margin-top: 5px;
+    
+  }
+
+  th, td {
+    padding: 15px;
+    border: 1px solid black;
+  }
+
+  input[type=text], input[type=password],input[type=number],input[type=email],input[type=date]{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border-color: none;
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+   color: blue;
+  }
+
+  input[type=text],input[type=password],input[type=number],input[type=email],input[type=date]:focus {
+    border: 3px solid red;
+  }
